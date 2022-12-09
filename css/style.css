@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  position: absolute;
+  width: 162px;
+  height: 38px;
+  left: 56px;
+  top: 31px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.home {
+  position: absolute;
+  width: 54px;
+  height: 23px;
+  left: 726px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.todo {
+  position: absolute;
+  width: 57px;
+  height: 23px;
+  left: 847px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.newtodo {
+  position: absolute;
+  width: 91px;
+  height: 23px;
+  left: 971px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.about {
+  position: absolute;
+  width: 54px;
+  height: 23px;
+  left: 1129px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.contact {
+  position: absolute;
+  width: 71px;
+  height: 23px;
+  left: 1250px;
+  top: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+h1 {
+  position: absolute;
+  width: 442px;
+  height: 266px;
+  left: 93px;
+  top: 229px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #000000;
+}
+
+p {
+  position: absolute;
+  width: 576px;
+  height: 61px;
+  left: 106px;
+  top: 506px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+button {
+  position: absolute;
+  width: 261px;
+  height: 68px;
+  left: 111px;
+  top: 632px;
+
+  background: rgba(217, 217, 217, 0.45);
+  cursor: pointer;
+}
+
+.gif {
+  position: absolute;
+  width: 332px;
+  height: 369px;
+  left: 986px;
+  top: 297px;
+
+  background: url(/assets/icons8-hourglass.gif);
+  background-repeat: no-repeat;
+}
