@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Tasks</title>
+  <link rel="stylesheet" href="/frontend/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h2>Time Saver</h2>
+    <nav>
+      <a href="/frontend/index.html" class="home">Home</a>
+      <a href="/frontend/html/toDo.html" class="todo">ToDos</a>
+      <a href="#" class="newtodo">NewToDo</a>
+      <a href="#" class="about">About</a>
+      <a href="#" class="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="toDoListImg"></div>
+
+    <div class="purple"></div>
+    <div class="pink"></div>
+    <select name="usernameDropdown" id="usernameDropdown" class="name" required>
+      <option value="" disabled selected hidden>Choose Username</option>
+    </select>
+
+    <select name="categories" id="categories" required>
+      <option value="" disabled selected hidden>Choose Category</option>
+
+    </select>
+    <textarea name="" id="description" cols="60" rows="15" placeholder="Add describtion"></textarea>
+    <input id="deadline" type="text" maxlength="10" placeholder="Add date">
+
+    <select name="priorities" id="priorities" required>
+      <option value="" disabled selected hidden>Priority</option>
+
+      <option value="">Low</option>
+      <option value="">Medium</option>
+      <option value="">High</option>
+    </select>
+
+
+
+
+    <button type="submit" value="Create Task" id="bttn" onclick="createTask()">Create Task</button>
+
+
+  </main>
+
+
+  <script src="/frontend/script/app.js"></script>
+
+</body>
+
+</html>

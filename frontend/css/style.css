@@ -150,12 +150,12 @@ button {
 
 .gif {
   position: absolute;
-  width: 332px;
+  width: 632px;
   height: 369px;
-  left: 986px;
-  top: 297px;
+  left: 886px;
+  top: 247px;
 
-  background: url(/assets/icons8-hourglass.gif);
+  background: url(/frontend/assets/flame-training.gif);
   background-repeat: no-repeat;
 }
 
@@ -167,7 +167,7 @@ button {
   left: 56px;
   top: 169px;
 
-  background: url(/assets/3d-business-man-standing-with-laptop-and-coffee.png);
+  background: url(/frontend/assets/3d-business-man-standing-with-laptop-and-coffee.png);
 }
 
 .DailyTasks {
@@ -193,7 +193,8 @@ button {
   left: 1262px;
   top: 365px;
 
-  background: #d9d9d9;
+  background-color: rgba(246, 174, 174, 0.25);
+  color: rgba(100, 80, 80, 0.73);
 }
 
 #password {
@@ -203,7 +204,8 @@ button {
   left: 1262px;
   top: 405px;
 
-  background: #d9d9d9;
+  background-color: rgba(246, 174, 174, 0.25);
+  color: rgba(100, 80, 80, 0.73);
 }
 
 #logIn {
@@ -213,7 +215,8 @@ button {
   left: 1302px;
   top: 445px;
 
-  background: #d9d9d9;
+  background-color: rgba(246, 174, 174, 0.25);
+  color: rgba(100, 80, 80, 0.73);
 }
 
 #logIn:hover {
@@ -302,49 +305,141 @@ button {
   background: #d9d9d9;
 }
 
-#Ct {
-  position: absolute;
-  width: 149px;
-  height: 24px;
-  left: 47px;
-  top: 40px;
+/* ----------------table----------------- */
+
+.table-container {
+  justify-content: center;
+  margin: 20vh auto;
+  width: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 4px;
+
+  overflow-y: auto;
+  height: 350px;
 }
 
-#Ds {
-  position: absolute;
-  width: 149px;
-  height: 24px;
-  left: 207px;
-  top: 40px;
+.table-container thead th {
+  position: sticky;
+  top: 0;
 }
 
-#Dl {
-  position: absolute;
-  width: 149px;
-  height: 24px;
-  left: 367px;
-  top: 40px;
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+th {
+  background: rgba(250, 245, 245, 0.55);
 }
 
-#Pr {
-  position: absolute;
-  width: 149px;
-  height: 24px;
-  left: 527px;
-  top: 40px;
+table {
+  width: 100%;
+  box-shadow: 15px 15px #0000000d;
+  border-collapse: collapse;
 }
 
-#Com {
-  position: absolute;
-  width: 149px;
-  height: 24px;
-  left: 687px;
-  top: 40px;
+tr:nth-of-type(odd) {
+  background-color: rgba(250, 245, 245, 0.55);
+  color: #fff;
 }
 
-.checkbox {
-  position: relative;
-  display: block;
-  width: 20px;
-  height: 20px;
+tr:nth-of-type(even) {
+  background-color: #fff;
+  color: #333;
+}
+
+th {
+  background-color: rgba(246, 174, 174, 0.25);
+  color: rgba(100, 80, 80, 0.73);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+td {
+  font-size: 14px;
+  color: #333;
+}
+
+td,
+th {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* --------add To Do-------------- */
+.toDoListImg {
+  position: absolute;
+  width: 330px;
+  height: 389px;
+  left: 77px;
+  top: 109px;
+
+  background: url(/frontend/assets/bouncy-completed-checklist-form-on-a-clipboard-and-pencil.gif);
+}
+
+#description {
+  position: absolute;
+  width: 807px;
+  height: 358px;
+  left: 396px;
+  top: 267px;
+
+  background: rgba(246, 174, 174, 0.25);
+}
+
+#bttn {
+  position: absolute;
+  width: 147px;
+  height: 35px;
+  left: 993px;
+  top: 551px;
+
+  background: #d39adc;
+}
+
+.name {
+  position: absolute;
+  width: 184px;
+  height: 38px;
+  left: 406px;
+  top: 209px;
+
+  background: rgba(246, 174, 174, 0.25);
+}
+
+#categories {
+  position: absolute;
+  width: 184px;
+  height: 38px;
+  left: 609px;
+  top: 209px;
+
+  background: rgba(246, 174, 174, 0.25);
+}
+
+#priorities {
+  position: absolute;
+  width: 184px;
+  height: 38px;
+  left: 812px;
+  top: 209px;
+
+  background: rgba(246, 174, 174, 0.25);
+}
+
+#deadline {
+  position: absolute;
+  width: 184px;
+  height: 38px;
+  left: 1015px;
+  top: 209px;
+
+  background: rgba(246, 174, 174, 0.25);
 }
